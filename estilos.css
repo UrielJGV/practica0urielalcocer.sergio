@@ -62,3 +62,106 @@ body.tema-noche {
 body.tema-noche #menu {
     background-color: #000;
 }
+
+
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Cabecera */
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #00e5ff;
+}
+
+header p {
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+/* Tabla */
+#tablaJuegos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Cabecera de la tabla */
+#tablaJuegos thead {
+    background: linear-gradient(90deg, #7c3aed, #2563eb);
+}
+
+#tablaJuegos th {
+    padding: 18px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* Celdas */
+#tablaJuegos td {
+    padding: 16px;
+    border-bottom: 1px solid #475569;
+}
+
+/* Efecto cebra */
+#tablaJuegos tbody tr:nth-child(even) {
+    background-color: #263449;
+}
+
+/* Efecto hover */
+#tablaJuegos tbody tr:hover {
+    background-color: #334155;
+    transition: 0.3s;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 700px) {
+
+    body {
+        padding: 15px;
+    }
+
+    #tablaJuegos {
+        font-size: 12px;
+    }
+
+    #tablaJuegos th,
+    #tablaJuegos td {
+        padding: 8px;
+    }
+
+}
