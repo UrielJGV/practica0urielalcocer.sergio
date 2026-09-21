@@ -48,7 +48,7 @@ videojuegos.forEach(function(juego) {
         <td>${juego.compania}</td>
         <td>${juego.plataforma}</td>
         <td>${juego.valoracion}/10</td>
-        <td>${juego.precio} €</td>
+        <td>${juego.precio.toFixed(2)} €</td>
     `;
 
     cuerpoTabla.appendChild(fila);
