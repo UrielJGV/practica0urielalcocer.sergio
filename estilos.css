@@ -164,4 +164,88 @@ footer {
         padding: 8px;
     }
 
+
+
+
+
+/* FORMULARIO */
+
+#formularioJuego {
+    max-width: 600px;
+    margin: 35px auto;
+    padding: 30px;
+    background-color: #1e293b;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Título del formulario */
+main h2 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+/* Etiquetas */
+#formularioJuego label {
+    display: block;
+    margin-bottom: 8px;
+    color: #e2e8f0;
+    font-weight: bold;
+}
+
+/* Campos de texto y números */
+#formularioJuego input,
+#formularioJuego select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 2px solid #475569;
+    border-radius: 8px;
+    background-color: #334155;
+    color: white;
+    font-size: 15px;
+}
+
+/* Efecto al seleccionar un campo */
+#formularioJuego input:focus,
+#formularioJuego select:focus {
+    outline: none;
+    border-color: #8b5cf6;
+}
+
+/* Botón */
+#formularioJuego button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #7c3aed, #2563eb);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efecto hover del botón */
+#formularioJuego button:hover {
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
